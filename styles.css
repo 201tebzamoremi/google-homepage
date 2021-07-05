@@ -1,0 +1,395 @@
+body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    min-width: 400px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    background: #fff;
+}
+.footer4{
+    display: flex;
+    justify-content: flex-end;
+    min-width: 30%;
+    order: 3;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+
+}
+.footer3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    order: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+
+}
+.footer2{
+    justify-content: flex-start;
+    min-width: 30%;
+    order:1;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+
+}
+.about{
+    color:#70757a;
+    display: block;
+    padding:15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.advertising{
+    color:#70757a;
+    display: block;
+    padding:15px;
+    white-space: nowrap;
+    text-decoration: none;
+
+}
+.business{
+    color:#70757a;
+    display: block;
+    padding:15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.howToSearch{
+    color:#70757a;
+    display: block;
+    padding:15px;
+    white-space: nowrap;
+    text-decoration: none; 
+}
+.carbon{
+    color:#70757a;
+    display: block;
+    padding:15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.image{
+    height: 14px;
+    margin-right: 6px;
+    color: #70757a;
+    white-space: nowrap;
+}
+.span{
+    white-space: nowrap;
+    vertical-align: top;
+    color:#70757a;
+}
+.terms{
+    color:#70757a;
+    display: block;
+    padding:15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.privacy{
+    color:#70757a;
+    display: block;
+    padding:15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.setting{
+    color:#70757a;
+    display: block;
+    padding:15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.footerSub{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.footer1{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color:#70757a;
+}
+.footer{
+    background: #f2f2f2;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#222;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.header{
+    display:flex;
+    align-items: center;
+    padding:6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.top{
+    display:inline-block;
+    flex-grow:1;
+}
+.top1{
+    min-width: auto;
+    z-index: 987;
+    height: 48px;
+    position: relative;
+    color:black;
+}
+.top2{
+    float:right;
+    padding-left: 33px;
+    box-sizing: border-box;
+    line-height: normal;
+    padding: 0px 4px;
+    justify-content: flex-end;
+    white-space: nowrap;
+    align-items: center;
+    color:black;
+    display: flex;
+    -moz-box-align: center;
+ 
+}
+.top4{
+    line-height: normal;
+    padding-right: 15px;
+    white-space: nowrap;
+    color:black;
+}
+.space{
+    display: inline-block;
+    padding-left: 5px;
+    line-height: normal;
+    white-space: nowrap;
+}
+.gmail{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    white-space: nowrap;
+    color:black;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+
+}
+.images{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    white-space: nowrap;
+    color:black;
+    display: inline-block;
+    vertical-align: bottom;
+    text-decoration: none;
+}
+.iconSetup{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    white-space: nowrap;
+    color:black;
+}
+.apps{
+    height: 32px;
+    width:32px;
+    box-sizing: border-box;
+    line-height: normal;
+vertical-align: bottom;
+}
+.accountImage1{
+    background-size: 32px 32px;
+    border:0;
+    border-radius: 50%;
+    display: inline-block;
+    margin:0;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+    color: #000;
+    cursor: pointer;
+    white-space: nowrap;
+    line-height: normal;
+vertical-align: bottom;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100%-560px);
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.googleImage{
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+}
+.picture{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+.search{
+width: auto;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 580px;
+    padding:1rem;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    max-width: 584px;
+
+    
+}
+.search-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.4rem;
+}
+.button-search{
+    min-width: 54px;
+    height: 36px;
+    padding: 0 2rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 0.7rem;
+}
+
+.button-search:hover {
+    border-color: #dadce0;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  }
+  .gmail:hover{
+    text-decoration: underline;
+  }
+  .apps:hover{
+    border-radius: 50%;
+    background-color:#70757a ;
+  }
+  .images:hover{
+    text-decoration: underline;
+  }
+  .about:hover{
+    text-decoration: underline;
+  }
+  .advertising:hover{
+    text-decoration: underline;
+  }
+  .business:hover{
+    text-decoration: underline;
+  }
+  .howToSearch:hover{
+    text-decoration: underline;
+  }
+  .privacy:hover{
+    text-decoration: underline; 
+  }
+  .terms:hover{
+      text-decoration: underline;
+  }
+  .setting:hover{
+      text-decoration: underline;
+  }
+  .carbon:hover{
+      text-decoration: underline;
+  }
+  .search-icon{
+      width:25px;
+      height: 25px;
+      margin-right: 1rem;
+      display: block;
+  }
+  #laguages{
+      display: inline-block;
+      line-height: 28px;
+      font-size: small;
+      text-align: center;
+      color: black;
+      text-decoration: none;
+  }
+  .add-language{
+    font-size: small;
+    text-align: center;
+    margin-bottom: 24px;
+
+  }
+  .afrikaans{
+      text-decoration: none;
+      line-height: 28px;
+      font-size: small;
+      text-align: center;
+      color: black;
+  }
+  .afrikaans:hover{
+    text-decoration: underline;
+}
+.Sesotho{
+    text-decoration: none;
+    line-height: 28px;
+    font-size: small;
+    text-align: center;
+    color: black;
+
+}
+.Sesotho:hover{
+    text-decoration: underline;
+}
+.zulu{
+    text-decoration: none;
+    line-height: 28px;
+    font-size: small;
+    text-align: center;
+    color: black;
+}
+.zulu:hover{
+    text-decoration: underline;
+}
+.xhosa{
+    text-decoration: none;
+    line-height: 28px;
+    font-size: small;
+    text-align: center;
+    color: black;
+}
+.xhosa:hover{
+    text-decoration: underline;
+}
+.tswana{
+    text-decoration: none;
+    line-height: 28px;
+    font-size: small;
+    text-align: center;
+    color: black;
+}
+.tswana:hover{
+    text-decoration: underline;
+}
+.nSotho{
+    text-decoration: none;
+    line-height: 28px;
+    font-size: small;
+    text-align: center;
+    color: black;
+}
+.nSotho:hover{
+    text-decoration: underline;
+}
